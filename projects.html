@@ -1,0 +1,81 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <title>Aaron Zawislak</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <ul class="sticky-nav">
+    <li id="name"><a href="index.html">aaron@zawislak:~/projects</a></li>
+    <li><a href="chatbox.html">Chat</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li id="changetext"></li>
+  </ul>
+</head>
+
+<body>
+  <div class="project-container">
+  <ul class="project-list">
+    <li class="project-item">
+      <img src="ds_screen.jpg" alt="Nintendo DS Capture Card" class="project-img">
+      <div class="project-details">
+        <h3>Nintendo DS Capture Card</h3>
+        <p>ECE 385 (Digital Systems Lab) Final Project, outputting the Nintendo DS top screen to an HDMI screen using soldering and FPGA hardware implementation (SystemVerilog & Vivado).</p>
+        <a href="ds_capture_project.html" class="project-link">Learn More</a>
+      </div>
+    </li>
+    <li class="project-item">
+      <img src="website.png" alt="Website" class="project-img">
+      <div class="project-details">
+        <h3>This Website!</h3>
+        <p>IS 229 Final Project, using HTML, CSS, and JavaScript to build a personal website.</p>
+        <a href="website_project.html" class="project-link">Learn More</a>
+      </div>
+    </li>
+  </ul>
+</div>
+  <div class="gradient-bg">
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </defs>
+    </svg>
+    <div class="gradients-container">
+      <div class="g1"></div>
+      <div class="g2"></div>
+      <div class="g3"></div>
+      <div class="g4"></div>
+      <div class="g5"></div>
+      <div class="interactive"></div>
+    </div>
+  </div>
+</body>
+<footer class="footer">
+  <p>&copy; 2025 aszawislak.com. All rights reserved.</p>
+  <div class="social-buttons">
+    <a href="https://github.com/aszaw" target="_blank">
+      <img src="github.svg" alt="GitHub">
+    </a>
+    <a href="https://x.com/CritzPKMN" target="_blank">
+      <img src="twitter-x.svg" alt="X">
+    </a>
+    <a href="https://www.instagram.com/aaron.zaw/" target="_blank">
+      <img src="instagram.svg" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com/in/aaron-zawislak-860731210/" target="_blank">
+      <img src="linkedin.svg" alt="LinkedIn">
+    </a>
+  </div>
+</footer>
+
+</html>
